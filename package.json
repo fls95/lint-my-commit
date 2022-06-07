@@ -1,0 +1,17 @@
+{
+  "name": "lint-my-commit",
+  "version": "1.0.0",
+  "description": "Lightweight package in order to lint commit messages based on configurable rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commit",
+    "lint",
+    "linter",
+    "commit-msg"
+  ],
+  "author": "fls95",
+  "license": "MIT"
+}
