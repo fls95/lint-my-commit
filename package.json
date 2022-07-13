@@ -2,7 +2,10 @@
   "name": "lint-my-commit",
   "version": "1.0.0",
   "description": "Lightweight package in order to lint commit messages based on configurable rules",
-  "main": "index.js",
+  "main": "bin/index.js",
+  "bin": {
+    "lint-my-commit": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

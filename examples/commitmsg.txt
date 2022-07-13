@@ -1,0 +1,13 @@
+TST-123 Lint ("Lint" is a keyword defined in the subject pattern) This is the subject of the commit, it must not end with a dot character
+
+- lint: "lint", this time in lower case, represents a keyword defined in the body pattern.
+- my: "my" is another predefined keyword.
+* commit: same goes for "commit".
+
+To be noticed:
+
+- This is already the footer section, so any free text can be placed in here, according to current specifications defind in lintmycommit.json.
+- We can choose between dashes or asterisks in the body section, followed by an empty space, any predefined keyword and a colon character. After it, an empty space must be placed again and something must be added (in order that "- lint: " gets also invalidated).
+- Spacing around sections is free, but at least there must be a line break between each section (in order to differentiate them).
+
+By modifying this example, different messages can be tested, and different logs will be produced by the main executable.

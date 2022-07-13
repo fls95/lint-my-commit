@@ -1,0 +1,6 @@
+{
+  "subjectPattern": "^TST-\\d+\\s{1}(Lint|My|Commit)\\s{1}.*[^.]$",
+  "bodyPattern": "^(-|\\*)\\s{1}(lint|my|commit):\\s{1}.+$",
+  "footerPattern": "^.*$",
+  "unrecognizedKey": "This will not be taken into account."
+}
