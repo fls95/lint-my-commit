@@ -1,6 +1,6 @@
 {
   "name": "lint-my-commit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lightweight package in order to lint commit messages based on configurable rules",
   "main": "bin/index.js",
   "bin": {
